@@ -34,6 +34,7 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 Instructions for chatbots(or math.js syntax info for you) to make your experience more compliant with math.js parser evaluation and to need less editing.
 
 ## Syntax and Structure Preferences
+
 :gear:
 **Code Formatting**:
 
@@ -49,6 +50,7 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 - Always use 1-based indexing.
 
 ## Environment Limitations and Workarounds
+
 :warning:
 - **Ternary Operator**: The native ?: operator is unsupported. You mandate the use of a custom ternaryOpFn (e.g., ternaryOpFn(cond, iftrue, iffalse) = [iffalse, iftrue][(cond == true) + 1]) to emulate conditional branching through array index selection.
 - **Arithmetic Operators**: The + operator is strictly reserved for numeric addition; it does not support string concatenation.
@@ -58,6 +60,7 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 - **Libraries**: Do not use standard math.js documentation examples unless specifically requested.
 
 ## Mathematical and Logic Rules
+
 :triangular_ruler:
 - **Vectors/Matrices**: Prioritize vectorized operations and direct matrix construction.
 - **Recursion**: Due to the lack of short-circuiting (lazy evaluation) and the lack of a native ?: operator, deep recursion is prone to stack overflows. Vectorized, non-recursive approaches are preferred.
