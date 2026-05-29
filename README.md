@@ -1,9 +1,9 @@
 # Index
 - [About mathjs_examples](#mathjs_examples).
 - [Chatbots and math.js](#chatbots-and-mathjs).
-  - [⚙️ Syntax and structure preferences](#syntax-and-structure-preferences).
-  - [⚠️ Environment Limitations & Workarounds](#environment-limitations--workarounds).
-  - [📐 Mathematical and Logic Rules](#mathematical-and-logic-rules).
+  - [⚙️ Syntax and structure preferences](#syntax-preferences).
+  - [⚠️ Environment Limitations & Workarounds](#environment-limitations).
+  - [📐 Mathematical and Logic Rules](#mathematical-rules).
 
 
 # mathjs_examples
@@ -33,6 +33,7 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 
 Instructions for chatbots(or math.js syntax info for you) to make your experience more compliant with math.js parser evaluation and to need less editing.
 
+<a name="syntax-preferences"></a>
 ## :gear: Syntax and Structure Preferences
 
 **Code Formatting**:
@@ -48,6 +49,7 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 
 - Always use 1-based indexing.
 
+<a name="environment-limitations"></a>
 ## :warning: Environment Limitations & Workarounds
 
 - **Ternary Operator**: The native ?: operator is unsupported. You mandate the use of a custom ternaryOpFn (e.g., ternaryOpFn(cond, iftrue, iffalse) = [iffalse, iftrue][(cond == true) + 1]) to emulate conditional branching through array index selection.
@@ -57,6 +59,7 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 - **Strict Parser**: Dynamic function invocation (e.g., f()(args)) is not supported, which complicates recursion and dynamic dispatch.
 - **Libraries**: Do not use standard math.js documentation examples unless specifically requested.
 
+<a name="mathematical-rules"></a>
 ## :triangular_ruler: Mathematical and Logic Rules
 
 - **Vectors/Matrices**: Prioritize vectorized operations and direct matrix construction.
