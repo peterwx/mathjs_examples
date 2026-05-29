@@ -8,7 +8,8 @@ A Confusion Matrix is a tabular layout used to describe the performance of a cla
 - What it means: It cross-references actual classes against predicted classes. For a binary scenario, it maps True Positives (TP), False Positives (FP), False Negatives (FN), and True Negatives (TN).
 - What it's used for: Evaluating classification models beyond simple accuracy, especially when dealing with imbalanced datasets.
 
-++Math.js Implementation++
+**Math.js Implementation**
+
 Assuming we have a confusion matrix structured as:
 
 $M = \begin{bmatrix} TP & FP \\ FN & TN \end{bmatrix}$
@@ -57,7 +58,7 @@ The Formula: $2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precis
 - What it means: The harmonic mean of Precision and Recall. It balances both metrics into a single score. Unlike an arithmetic average, the harmonic mean penalizes extreme imbalances (if Precision is 1.0 but Recall is 0.0, the F1-score drops to 0, not 0.5).
 - When to use it: When you need a reliable baseline metric for an imbalanced dataset and you care equally about minimizing both False Positives and False Negatives.
 
-Summary Checklist
+**Summary Checklist**
 
 | Metric    | Primary Focus                   | Best Used For...                                     |
 | :-------: | :-----------------------------: | :--------------------------------------------------: |
