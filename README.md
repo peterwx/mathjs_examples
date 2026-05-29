@@ -1,3 +1,8 @@
+# Índice
+- [About mathjs_examples](#mathjs_examples)
+- [Chatbots and math.js](#chatbotsandmathjs)
+
+
 # mathjs_examples
 Examples notes(in markdown) containing math.js markdown code blocks(tested on [Math mode plugin](https://github.com/CalebJohn/joplin-math-mode) for Joplin mobile). 
 
