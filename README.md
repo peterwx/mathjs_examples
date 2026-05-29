@@ -13,12 +13,12 @@ Common dimensions are:
 Only expressions and statements(besides math.js methods and constants) may be available(maybe). Standard JS library(incl. types and methods) as well as blocks of any kind like loops and ifs, aren't.
 Despite this, it's possible to have functional reuse, as the examples demonstrate.
 
-!warning!
+>[!note]
 The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings. Underlines(++) aren't rendered also.
 
 # Chatbots and math.js
 
-Instructions for chatbots to make your experience more compliant with math.js parser evaluation and need less editing.
+Instructions for chatbots to make your experience more compliant with math.js parser evaluation and to need less editing.
 
 ## ⚙️ Syntax and Structure Preferences
 
