@@ -1,8 +1,6 @@
 # mathjs_examples
 Examples notes(in markdown) containing math.js markdown code blocks(tested on [Math mode plugin](https://github.com/CalebJohn/joplin-math-mode) for Joplin mobile). 
 
-The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings. Underlines(++) aren't rendered also.
-
 Math.js code is evaluated in a Math.js parser environment and that fact causes some limitations on what can be parsed/evaluated successfully, as opposed to evaluation in a browser environment.
 
 On this kind of environment, MathJS uses 1-based indexing(for indexes and dimensions - that is, they start at 1 instead of 0).
@@ -14,6 +12,9 @@ Common dimensions are:
 
 Only expressions and statements(besides math.js methods and constants) may be available(maybe). Standard JS library(incl. types and methods) as well as blocks of any kind like loops and ifs, aren't.
 Despite this, it's possible to have functional reuse, as the examples demonstrate.
+
+!warning!
+The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings. Underlines(++) aren't rendered also.
 
 # Chatbots and math.js
 
