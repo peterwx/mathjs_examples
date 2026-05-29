@@ -2,8 +2,8 @@
 - [About mathjs_examples](#mathjs_examples).
 - [Chatbots and math.js](#chatbots-and-mathjs).
   - [⚙️ Syntax and structure preferences](#syntax-and-structure-preferences).
-  - [⚠️ Environment Limitations & Workarounds](#⚠️-environment-limitations--workarounds).
-  - [📐 Mathematical and Logic Rules](#📐-mathematical-and-logic-rules).
+  - [⚠️ Environment Limitations & Workarounds](#environment-limitations--workarounds).
+  - [📐 Mathematical and Logic Rules](#mathematical-and-logic-rules).
 
 
 # mathjs_examples
@@ -33,7 +33,7 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 
 Instructions for chatbots(or math.js syntax info for you) to make your experience more compliant with math.js parser evaluation and to need less editing.
 
-## ⚙️ Syntax and Structure Preferences
+## :gear: Syntax and Structure Preferences
 
 **Code Formatting**:
 
@@ -48,7 +48,7 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 
 - Always use 1-based indexing.
 
-## ⚠️ Environment Limitations & Workarounds
+## :warning: Environment Limitations & Workarounds
 
 - **Ternary Operator**: The native ?: operator is unsupported. You mandate the use of a custom ternaryOpFn (e.g., ternaryOpFn(cond, iftrue, iffalse) = [iffalse, iftrue][(cond == true) + 1]) to emulate conditional branching through array index selection.
 - **Arithmetic Operators**: The + operator is strictly reserved for numeric addition; it does not support string concatenation.
@@ -57,7 +57,7 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 - **Strict Parser**: Dynamic function invocation (e.g., f()(args)) is not supported, which complicates recursion and dynamic dispatch.
 - **Libraries**: Do not use standard math.js documentation examples unless specifically requested.
 
-## 📐 Mathematical and Logic Rules
+## :triangular_ruler: Mathematical and Logic Rules
 
 - **Vectors/Matrices**: Prioritize vectorized operations and direct matrix construction.
 - **Recursion**: Due to the lack of short-circuiting (lazy evaluation) and the lack of a native ?: operator, deep recursion is prone to stack overflows. Vectorized, non-recursive approaches are preferred.
