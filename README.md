@@ -1,7 +1,7 @@
 # mathjs_examples
 Examples notes(in markdown) including math.js markdown code blocks(tested on Math Mode plugin for Joplin mobile - Android). 
 
-The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings.
+The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings. Underlines(++) aren't rendered also.
 
 Math.js code is evaluated in a Math.js parser environment and that fact causes some limitations on what can be parsed/evaluated successfully, as opposed to evaluation in a browser environment.
 
@@ -11,3 +11,28 @@ Common dimensions are:
 
 - 1 for Vertical(Rows).
 - 2 for Horizontal(Columns).
+
+# Chatbots and math.js
+
+Instructions for chatbots to make your experience more compliant with math.js parser evaluation and need less editing.
+
+## ⚙️ Syntax and Structure Preferences
+++Code Formatting++:
+- No variable modifiers (const, let, var).
+- No math. library prefix.
+- Single-line assignments only.
+- No semicolons (;) at the end of lines.
+- Comments must be placed above the relevant line, never to the side.
+- No newlines or comments inside data structures (matrices/vectors).
+++Indexing++:
+-Always use 1-based indexing.
+## ⚠️ Environment Limitations & Workarounds
+- Ternary Operator: The native ?: operator is unsupported. You mandate the use of a custom ternaryOpFn (e.g., ternaryOpFn(cond, iftrue, iffalse) = [iffalse, iftrue][(cond == true) + 1]) to emulate conditional branching through array index selection.
+- Index Ranges: The : syntax for ranges is not supported; always use the range() function.
+- Dynamic Dispatch: The apply function does not exist in your environment.
+- Strict Parser: Dynamic function invocation (e.g., f()(args)) is not supported, which complicates recursion and dynamic dispatch.
+- Libraries: Do not use standard math.js documentation examples unless specifically requested.
+## 📐 Mathematical and Logic Rules
+- Vectors/Matrices: Prioritize vectorized operations and direct matrix construction.
+- Recursion: Due to the lack of short-circuiting (lazy evaluation) and the lack of a native ?: operator, deep recursion is prone to stack overflows. Vectorized, non-recursive approaches are preferred.
+- Ranges: The range function in your environment is inclusive.
