@@ -33,4 +33,24 @@ interpolate_frame(data, h, i) = sum(get_weights(data, h, i) .* col(data, 3)) / s
 # i: Inseam (metric)
 find_triplets(data, h, i) = subset(data, index(filter(range(1, nrows(data)), r = subset(data, index(r, 1)) == h and subset(data, index(r, 2)) == i), range(1, 3)))
 
-# Function to find triplet(s) within a range of heigh
+# Function to find triplet(s) within a range of heights and inseams
+# data: The matrix of triplets
+# h_min, h_max: Range of heights (metric)
+# i_min, i_max: Range of inseams (metric)
+find_triplets_range(data, h_min, h_max, i_min, i_max) = subset(data, index(filter(range(1, nrows(data)), r = subset(data, index(r, 1)) >= h_min and subset(data, index(r, 1)) <= h_max and subset(data, index(r, 2)) >= i_min and subset(data, index(r, 2)) <= i_max), range(1, 3)))
+```
+
+# Bicycle frame size calculator
+
+```math
+# Test 1: Find the exact match for a height of 168cm and inseam of 74cm
+test_exact = find_triplets(data, 168, 74)
+
+# Test 2: Find all options for a rider between 185-187cm tall with an inseam between 85-87cm
+test_range = find_triplets_range(data, 185, 187, 85, 87)
+# Estimate frame size for a rider 170cm tall with 75cm inseam
+# This fits between the rows for [168, 74, 52] and [173, 76, 54]
+estimated_size = interpolate_frame(data, 170, 75)
+
+
+```
