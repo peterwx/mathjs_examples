@@ -1,7 +1,7 @@
 # Index
 - [About mathjs_examples](#mathjs_examples).
 - [Chatbots and math.js](#chatbots-and-mathjs).
-  - [⚙️ Syntax and structure preferences](#syntax-preferences).
+  - [⚙️ Syntax and structure preferences](#syntax-and-structure-preferences).
   - [⚠️ Environment Limitations & Workarounds](#environment-limitations).
   - [📐 Mathematical and Logic Rules](#mathematical-rules).
 
