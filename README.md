@@ -61,7 +61,7 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 - **Strict Parser**: Dynamic function invocation (e.g., f()(args)) is not supported, which complicates recursion and dynamic dispatch.
 - **Libraries**: Do not use standard math.js documentation examples unless specifically requested.
 
-## Mathematical and Logic Rules :triangular_ruler:
+## Mathematical and Logic Rules
 
 :triangular_ruler:
 
