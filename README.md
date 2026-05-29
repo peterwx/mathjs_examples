@@ -29,7 +29,7 @@ Instructions for chatbots to make your experience more compliant with math.js pa
 
 ++Indexing++:
 
--Always use 1-based indexing.
+- Always use 1-based indexing.
 
 ## ⚠️ Environment Limitations & Workarounds
 
