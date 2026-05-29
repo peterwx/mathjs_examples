@@ -6,9 +6,6 @@ ${toc}
 
 Information mostly obtained from Joplin's(Android) menu/view Configuration -> Tools -> SYNC STATUS screen/view after normal/traditional or AI OCR text content extraction on a scrolling screenshot(by tapping scroll button on a taken screenshot) copied to and OCR'ed by Keep(Google) through its grab image text feature, for example.
 
-- First installation ever(on Android OS) around 2024-08-21.
-- 540 h. usage in 2025.
-
 # Status
 
 Last obtained on 2025-11-05.
