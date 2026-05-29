@@ -35,8 +35,6 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 
 ## Syntax and Structure Preferences
 
-:gear:
-
 **Code Formatting**:
 
 - No variable modifiers (const, let, var).
@@ -52,8 +50,6 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 
 ## Environment Limitations and Workarounds
 
-:warning:
-
 - **Ternary Operator**: The native ?: operator is unsupported. You mandate the use of a custom ternaryOpFn (e.g., ternaryOpFn(cond, iftrue, iffalse) = [iffalse, iftrue][(cond == true) + 1]) to emulate conditional branching through array index selection.
 - **Arithmetic Operators**: The + operator is strictly reserved for numeric addition; it does not support string concatenation.
 - **Index Ranges**: The : syntax for ranges is not supported; always use the range() function.
@@ -61,9 +57,8 @@ Instructions for chatbots(or math.js syntax info for you) to make your experienc
 - **Strict Parser**: Dynamic function invocation (e.g., f()(args)) is not supported, which complicates recursion and dynamic dispatch.
 - **Libraries**: Do not use standard math.js documentation examples unless specifically requested.
 
-## Mathematical and Logic Rules
-
 :triangular_ruler:
+## Mathematical and Logic Rules
 
 - **Vectors/Matrices**: Prioritize vectorized operations and direct matrix construction.
 - **Recursion**: Due to the lack of short-circuiting (lazy evaluation) and the lack of a native ?: operator, deep recursion is prone to stack overflows. Vectorized, non-recursive approaches are preferred.
