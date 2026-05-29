@@ -1,5 +1,5 @@
 # mathjs_examples
-Examples notes(in markdown) including math.js markdown code blocks(tested on Math Mode plugin for Joplin mobile - Android). 
+Examples notes(in markdown) containing math.js markdown code blocks(tested on [Math mode plugin](https://github.com/CalebJohn/joplin-math-mode) for Joplin mobile). 
 
 The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings. Underlines(++) aren't rendered also.
 
@@ -11,6 +11,9 @@ Common dimensions are:
 
 - 1 for Vertical(Rows).
 - 2 for Horizontal(Columns).
+
+Only expressions and statements(besides math.js methods and constants) may be available(maybe). Standard JS library(incl. types and methods) as well as blocks of any kind like loops and ifs, aren't.
+Despite this, it's possible to have functional reuse, as the examples demonstrate.
 
 # Chatbots and math.js
 
