@@ -1,6 +1,7 @@
 # Índice
-- [About mathjs_examples](#mathjs_examples)
-- [Chatbots and math.js](#chatbotsandmathjs)
+- [About mathjs_examples](#mathjs_examples).
+- [Chatbots and math.js](#chatbots-and-math.js).
+- [Syntax and structure preferences](⚙️syntax-and-structure-preferences).
 
 
 # mathjs_examples
