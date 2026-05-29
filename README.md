@@ -8,7 +8,9 @@ Despite this, it's possible to have functional reuse, as the examples demonstrat
 
 >[!important]
 MathJS uses **1-based indexing**(for indexes and dimensions - that is, they start at 1 instead of 0), at least on this kind of environment.
+
 Common dimensions are:
+
 - 1 for Vertical(Rows).
 - 2 for Horizontal(Columns).
 
