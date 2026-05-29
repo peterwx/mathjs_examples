@@ -17,7 +17,9 @@ Common dimensions are:
 Instructions for chatbots to make your experience more compliant with math.js parser evaluation and need less editing.
 
 ## ⚙️ Syntax and Structure Preferences
+
 ++Code Formatting++:
+
 - No variable modifiers (const, let, var).
 - No math. library prefix.
 - Single-line assignments only.
@@ -26,14 +28,19 @@ Instructions for chatbots to make your experience more compliant with math.js pa
 - No newlines or comments inside data structures (matrices/vectors).
 
 ++Indexing++:
+
 -Always use 1-based indexing.
+
 ## ⚠️ Environment Limitations & Workarounds
+
 - Ternary Operator: The native ?: operator is unsupported. You mandate the use of a custom ternaryOpFn (e.g., ternaryOpFn(cond, iftrue, iffalse) = [iffalse, iftrue][(cond == true) + 1]) to emulate conditional branching through array index selection.
 - Index Ranges: The : syntax for ranges is not supported; always use the range() function.
 - Dynamic Dispatch: The apply function does not exist in your environment.
 - Strict Parser: Dynamic function invocation (e.g., f()(args)) is not supported, which complicates recursion and dynamic dispatch.
 - Libraries: Do not use standard math.js documentation examples unless specifically requested.
+
 ## 📐 Mathematical and Logic Rules
+
 - Vectors/Matrices: Prioritize vectorized operations and direct matrix construction.
 - Recursion: Due to the lack of short-circuiting (lazy evaluation) and the lack of a native ?: operator, deep recursion is prone to stack overflows. Vectorized, non-recursive approaches are preferred.
 - Ranges: The range function in your environment is inclusive.
