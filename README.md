@@ -33,7 +33,7 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 
 Instructions for chatbots(or math.js syntax info for you) to make your experience more compliant with math.js parser evaluation and to need less editing.
 
-## Syntax and Structure Preferences
+## :gear: Syntax and Structure Preferences
 
 :gear:
 **Code Formatting**:
