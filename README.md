@@ -6,13 +6,16 @@ Math.js code is evaluated in a Math.js parser environment and that fact causes s
 Only expressions and statements(besides math.js methods and constants) may be available(maybe). Standard JS library(incl. types and methods) as well as blocks of any kind like loops and ifs, aren't.
 Despite this, it's possible to have functional reuse, as the examples demonstrate.
 
-MathJS uses 1-based indexing(for indexes and dimensions - that is, they start at 1 instead of 0), at least on this kind of environment.
+MathJS uses **1-based indexing**(for indexes and dimensions - that is, they start at 1 instead of 0), at least on this kind of environment.
 
 Common dimensions are:
 
 - 1 for Vertical(Rows).
 - 2 for Horizontal(Columns).
 
+>[!tip]
+One can type help in a math.js block. Try it with help(help).
+help command output is displayed right below its call line, on the math.js block.
 
 >[!note]
 The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings.
