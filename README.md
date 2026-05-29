@@ -3,22 +3,23 @@ Examples notes(in markdown) containing math.js markdown code blocks(tested on [M
 
 Math.js code is evaluated in a Math.js parser environment and that fact causes some limitations on what can be parsed/evaluated successfully, as opposed to evaluation in a browser environment.
 
-On this kind of environment, MathJS uses 1-based indexing(for indexes and dimensions - that is, they start at 1 instead of 0).
+Only expressions and statements(besides math.js methods and constants) may be available(maybe). Standard JS library(incl. types and methods) as well as blocks of any kind like loops and ifs, aren't.
+Despite this, it's possible to have functional reuse, as the examples demonstrate.
+
+MathJS uses 1-based indexing(for indexes and dimensions - that is, they start at 1 instead of 0), at least on this kind of environment.
 
 Common dimensions are:
 
 - 1 for Vertical(Rows).
 - 2 for Horizontal(Columns).
 
-Only expressions and statements(besides math.js methods and constants) may be available(maybe). Standard JS library(incl. types and methods) as well as blocks of any kind like loops and ifs, aren't.
-Despite this, it's possible to have functional reuse, as the examples demonstrate.
 
 >[!note]
 The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings.
 
 # Chatbots and math.js
 
-Instructions for chatbots to make your experience more compliant with math.js parser evaluation and to need less editing.
+Instructions for chatbots(or math.js syntax info for you) to make your experience more compliant with math.js parser evaluation and to need less editing.
 
 ## ⚙️ Syntax and Structure Preferences
 
