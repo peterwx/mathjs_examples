@@ -38,6 +38,7 @@ Instructions for chatbots to make your experience more compliant with math.js pa
 ## ⚠️ Environment Limitations & Workarounds
 
 - Ternary Operator: The native ?: operator is unsupported. You mandate the use of a custom ternaryOpFn (e.g., ternaryOpFn(cond, iftrue, iffalse) = [iffalse, iftrue][(cond == true) + 1]) to emulate conditional branching through array index selection.
+- Arithmetic Operators: The + operator is strictly reserved for numeric addition; it does not support string concatenation.
 - Index Ranges: The : syntax for ranges is not supported; always use the range() function.
 - Dynamic Dispatch: The apply function does not exist in your environment.
 - Strict Parser: Dynamic function invocation (e.g., f()(args)) is not supported, which complicates recursion and dynamic dispatch.
