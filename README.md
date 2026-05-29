@@ -24,6 +24,7 @@ Instructions for chatbots to make your experience more compliant with math.js pa
 - No semicolons (;) at the end of lines.
 - Comments must be placed above the relevant line, never to the side.
 - No newlines or comments inside data structures (matrices/vectors).
+
 ++Indexing++:
 -Always use 1-based indexing.
 ## ⚠️ Environment Limitations & Workarounds
