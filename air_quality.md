@@ -1,0 +1,4 @@
+"The QualAr index is an indicator that reflects the state of ambient air quality in a given location. Through a classification expressed on a color scale, it provides guidance on how you can adapt your behaviors and actions to protect your health, especially if you belong to the most sensitive population groups.
+The result of the QualAr Index—expressed through a classification ranging from 'Very Good' to 'Bad' and its corresponding color—is determined by the worst result of the pollutant(s) with the highest predicted concentration (\text{PM}_{10}, \text{PM}_{2.5}, \text{O}_3, \text{NO}_2).
+The classification intervals of the QualAr index are aligned with the values established by legislation, as well as with the reference values recommended by the World Health Organization (WHO)."
+> Translated from European Portuguese.
