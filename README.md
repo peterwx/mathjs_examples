@@ -39,6 +39,8 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 - [Financial calculations](financial_operations.md).
 - [Joplin notebook hierarchy](joplin_notebook_hierarchy.md).
 - [Joplin notes stats](joplin_notes_stats.md).
+- [Nested switch](nested_switch.md).
+- [Sorting points on a matrix](points_matrix_sorting.md).
 
 
 # Chatbots and math.js
