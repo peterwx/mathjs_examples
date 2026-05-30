@@ -1,4 +1,5 @@
 # Index
+
 - [About mathjs_examples](#mathjs_examples).
 - [The examples](#examples).
 - [Chatbots and math.js](#chatbots-and-mathjs).
@@ -7,6 +8,7 @@
   - [📐 Mathematical and Logic Rules](#mathematical-and-logic-rules).
 
 # mathjs_examples
+
 Examples notes(in markdown) containing math.js markdown code blocks(tested on [Math mode plugin](https://github.com/CalebJohn/joplin-math-mode) for Joplin mobile). 
 
 Math.js code is evaluated in a Math.js parser environment and that fact causes some limitations on what can be parsed/evaluated successfully, as opposed to evaluation in a browser environment.
