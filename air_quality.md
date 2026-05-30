@@ -60,9 +60,11 @@ lowestQuality = getLowestScore(qs_air, scoreScale)
 # Air quality warnings
 
 ++Average++:
+
 "Children and the elderly with respiratory illnesses should limit outdoor activities."
 
 ++Weak++:
+
 - "Patients with respiratory and cardiovascular conditions should reduce outdoor physical activity and, if symptoms worsen, contact the health hotline or a health unit."
 - "Children, the elderly, and individuals with respiratory problems should minimize outdoor physical activity."
 - "Avoid strenuous outdoor physical activity and exposure to other risk factors, such as tobacco smoke and irritating products containing solvents."
