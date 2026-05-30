@@ -5,6 +5,17 @@
   - [⚠️ Environment Limitations and Workarounds](#environment-limitations-and-workarounds).
   - [📐 Mathematical and Logic Rules](#mathematical-and-logic-rules).
 
+# Teste de Fórmulas Matemáticas
+
+Aqui está uma fórmula inline: $E=mc^2$ que aparece no meio do texto.
+
+E aqui está uma fórmula complexa em bloco, isolada:
+
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
+
+Este texto já aparece normalmente abaixo da fórmula.
 
 # mathjs_examples
 Examples notes(in markdown) containing math.js markdown code blocks(tested on [Math mode plugin](https://github.com/CalebJohn/joplin-math-mode) for Joplin mobile). 
