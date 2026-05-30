@@ -7,13 +7,13 @@
 
 # Teste de Fórmulas Matemáticas
 
-Aqui está uma fórmula inline: $E=mc^2$ que aparece no meio do texto.
+Aqui está uma fórmula inline: $`E=mc^2`$ que aparece no meio do texto.
 
 E aqui está uma fórmula complexa em bloco, isolada:
 
-$$
+```math
 \sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-$$
+```
 
 Este texto já aparece normalmente abaixo da fórmula.
 
