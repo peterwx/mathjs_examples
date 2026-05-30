@@ -1,10 +1,10 @@
 # Index
 
-- [About mathjs_examples](#mathjs_examples).
-- [The examples](#examples).
-- [Chatbots and math.js](#chatbots-and-mathjs).
-  - [⚙️ Syntax and structure preferences](#syntax-and-structure-preferences).
-  - [⚠️ Environment Limitations and Workarounds](#environment-limitations-and-workarounds).
+- [About mathjs_examples](#mathjs_examples)
+- [The examples](#examples)
+- [Chatbots and math.js](#chatbots-and-mathjs)
+  - [⚙️ Syntax and structure preferences](#syntax-and-structure-preferences)
+  - [⚠️ Environment Limitations and Workarounds](#environment-limitations-and-workarounds)
   - [📐 Mathematical and Logic Rules](#mathematical-and-logic-rules).
 
 # mathjs_examples
