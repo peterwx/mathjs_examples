@@ -44,7 +44,8 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 - [Joplin notes stats](joplin_notes_stats.md).
 - [Nested switch](nested_switch.md).
 - [Sorting points on a matrix](points_matrix_sorting.md).
-- [Switches applications](switches_applications.md)
+- [Switches applications](switches_applications.md).
+- [Switches demos](switches_demos.md).
 
 
 # Chatbots and math.js
