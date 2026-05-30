@@ -34,6 +34,10 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 - [BMI](BMI.md).
 - [Bicycle frame size calculator](bicycle_frame_size.md).
 - [Blood exam analysis](blood_analysis.md).
+- [Confusion Matrix(data mining)](confusion_matrix.md).
+- [Convex hull(geometry)](convex_hull.md).
+- [Financial calculations](financial_operations.md).
+- 
 
 
 # Chatbots and math.js
