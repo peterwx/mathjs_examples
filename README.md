@@ -37,7 +37,8 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 - [Confusion Matrix(data mining)](confusion_matrix.md).
 - [Convex hull(geometry)](convex_hull.md).
 - [Financial calculations](financial_operations.md).
-- 
+- [Joplin notebook hierarchy](joplin_notebook_hierarchy.md).
+- [Joplin notes stats](joplin_notes_stats.md).
 
 
 # Chatbots and math.js
