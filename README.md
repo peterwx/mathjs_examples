@@ -9,6 +9,9 @@
 
 Aqui está uma fórmula inline: $`E=mc^2`$ que aparece no meio do texto.
 
+![Fórmula Matemática](https://latex.codecogs.com/svg.latex?\sum_{i=1}^{n}i=\frac{n(n+1)}{2})
+
+
 E aqui está uma fórmula complexa em bloco, isolada:
 
 ```math
