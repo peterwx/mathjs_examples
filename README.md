@@ -33,6 +33,7 @@ The notes can contain indexes(TOC - table of contents) and KaTeX formulas that d
 
 # Examples
 
+- [Air quality](air_quality.md).
 - [BMI](BMI.md).
 - [Bicycle frame size calculator](bicycle_frame_size.md).
 - [Blood exam analysis](blood_analysis.md).
