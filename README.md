@@ -1,5 +1,6 @@
 # Index
 - [About mathjs_examples](#mathjs_examples).
+- [The examples](#examples).
 - [Chatbots and math.js](#chatbots-and-mathjs).
   - [⚙️ Syntax and structure preferences](#syntax-and-structure-preferences).
   - [⚠️ Environment Limitations and Workarounds](#environment-limitations-and-workarounds).
@@ -27,6 +28,13 @@ help command output is displayed right below its call line, on the math.js block
 
 >[!note]
 The notes can contain indexes(TOC - table of contents) and KaTeX formulas that don't render in GitHub by default. They render on Joplin with toc and KaTeX features enabled on its settings.
+
+# Examples
+
+- [BMI](BMI.md).
+- [Bicycle frame size calculator](bicycle_frame_size.md).
+- [Blood exam analysis](blood_analysis.md).
+
 
 # Chatbots and math.js
 
