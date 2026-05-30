@@ -4,13 +4,13 @@ ${toc}
 
 # `QualAr` Index [^qualar]
 
-| Classificação | PM10     | PM2.5  | NO2      | 03      | `S02`    |
+| Classification | PM10     | PM2.5  | NO2      | 03      | `S02`    |
 | :-----------: | :------: | :----: | :------: | :-----: | :------: |
-| Muito Bom     | 0-20     | 0-10   | 0-40     | 0-80    | 0-100    |
-| Bom           | 21-35    | 11-20  | 41-100   | 81-100  | 101-200  |
-| Médio         | 36-50    | 21-25  | 101-200  | 101-180 | 201-350  |
-| Fraco         | 51-100   | 26-50  | 201-400  | 181-240 | 351-500  |
-| Mau           | 101-1200 | 51-800 | 401-1000 | 241-600 | 501-1250 |
+| Very good     | 0-20     | 0-10   | 0-40     | 0-80    | 0-100    |
+| Good           | 21-35    | 11-20  | 41-100   | 81-100  | 101-200  |
+| Average         | 36-50    | 21-25  | 101-200  | 101-180 | 201-350  |
+| Weak         | 51-100   | 26-50  | 201-400  | 181-240 | 351-500  |
+| Bad           | 101-1200 | 51-800 | 401-1000 | 241-600 | 501-1250 |
 
 Class intervals are in `µg/m3` units.
 
@@ -32,7 +32,7 @@ values = [10, 100, 50, 190, 210];
 
 v_idxs = range(1, size(valores)[1]);
 
-qs_ar = map(v_idxs, f(i) = p_checks[i](valores[i]))
+qs_air = map(v_idxs, f(i) = p_checks[i](valores[i]))
 
 // The reference scale ordered from Worst to Best
 // Index 1 = "Bad", Index 5 = "Very good"
@@ -60,12 +60,12 @@ lowestQuality = getLowestScore(qs_air, scoreScale)
 # Air quality warnings
 
 ++Average++:
-Children and the elderly with respiratory illnesses should limit outdoor activities.
+"Children and the elderly with respiratory illnesses should limit outdoor activities."
 
 ++Weak++:
-- .
-- Children, the elderly, and individuals with respiratory problems should minimize outdoor physical activity.
-- Avoid strenuous outdoor physical activity and exposure to other risk factors, such as tobacco smoke and irritating products containing solvents.
+- "Patients with respiratory and cardiovascular conditions should reduce outdoor physical activity and, if symptoms worsen, contact the health hotline or a health unit."
+- "Children, the elderly, and individuals with respiratory problems should minimize outdoor physical activity."
+- "Avoid strenuous outdoor physical activity and exposure to other risk factors, such as tobacco smoke and irritating products containing solvents."
 
 [^qualar]:
 "The `QualAr` index is an indicator that reflects the state of ambient air quality in a given location. Through a classification expressed on a color scale, it provides guidance on how you can adapt your behaviors and actions to protect your health, especially if you belong to the most sensitive population groups.
